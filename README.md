@@ -12,9 +12,15 @@ This template also comes with `CLAUDE.md` and `.cursor/rules` files for easy int
 > For questions and updates, feel free to reach out on [**X (Twitter)**](https://x.com/rfitzio).  
 > If you've built and published your personal site with this template, I'd love to see it! Send me a DM 🚀
 
-## Preview
+## 🚀 Deploy
 
-To view a live preview of the site, [click here](https://ryanfitzgerald.github.io/devportfolio/).
+[![Deploy to Tencent EdgeOne Pages](https://img.shields.io/badge/Deploy-Tencent%20EdgeOne%20Pages-006EFF?style=for-the-badge&logo=tencentqq&logoColor=white)](https://edgeone.ai/pages/new?template=https%3A%2F%2Fgithub.com%2Fnuonuo-888%2Fdevportfolio&output-directory=dist%2Fclient&build-command=npm+run+build&install-command=npm+install&origin_from=childtom)
+
+The one-click button above clones `nuonuo-888/devportfolio`, installs dependencies with `npm`, runs `npm run build`, and serves the generated `dist/client/` folder automatically on Tencent EdgeOne Pages.
+
+## 👁 Preview
+
+[![Preview](https://img.shields.io/badge/Preview-4ECCA3?style=for-the-badge&logo=globe&logoColor=white)](https://devportfolio.edgeone.app)
 
 ## Built With
 
@@ -45,6 +51,7 @@ If skills, projects, experience, or education are removed from the config, those
 Here's what the config data structure looks like for each section:
 
 #### Basic Information
+
 ```typescript
 name: "Your Name",
 title: "Your Job Title",
@@ -53,26 +60,30 @@ accentColor: "#1d4ed8", // Hex color for theme
 ```
 
 #### Social Links (all optional)
+
 ```typescript
 social: {
   email: "your-email@example.com",
   linkedin: "https://linkedin.com/in/yourprofile",
-  twitter: "https://twitter.com/yourprofile", 
+  twitter: "https://twitter.com/yourprofile",
   github: "https://github.com/yourusername",
 }
 ```
 
 #### About Section
+
 ```typescript
-aboutMe: "A paragraph describing yourself, your background, interests, and what you're passionate about. This appears in the About section of your portfolio."
+aboutMe: "A paragraph describing yourself, your background, interests, and what you're passionate about. This appears in the About section of your portfolio.";
 ```
 
 #### Skills
+
 ```typescript
-skills: ["JavaScript", "React", "Node.js", "Python", "AWS", "Docker"]
+skills: ["JavaScript", "React", "Node.js", "Python", "AWS", "Docker"];
 ```
 
 #### Projects
+
 ```typescript
 projects: [
   {
@@ -80,11 +91,12 @@ projects: [
     description: "Brief description of what the project does and its impact",
     link: "https://github.com/yourusername/project",
     skills: ["React", "Node.js", "AWS"], // Technologies used
-  }
-]
+  },
+];
 ```
 
 #### Experience
+
 ```typescript
 experience: [
   {
@@ -96,11 +108,12 @@ experience: [
       "Reduced API response times by 40% through optimization",
       "Mentored team of 5 junior developers",
     ],
-  }
-]
+  },
+];
 ```
 
 #### Education
+
 ```typescript
 education: [
   {
@@ -110,10 +123,10 @@ education: [
     achievements: [
       "Graduated Magna Cum Laude with 3.8 GPA",
       "Dean's List all semesters",
-      "President of Computer Science Club"
-    ]
-  }
-]
+      "President of Computer Science Club",
+    ],
+  },
+];
 ```
 
 ### Icons
