@@ -20,7 +20,7 @@ The one-click button above clones `nuonuo-888/devportfolio`, installs dependenci
 
 ## 👁 Preview
 
-[![Preview](https://img.shields.io/badge/Preview-4ECCA3?style=for-the-badge&logo=globe&logoColor=white)](https://devportfolio.edgeone.app)
+[![Preview](https://img.shields.io/badge/Preview-4ECCA3?style=for-the-badge&logo=globe&logoColor=white)](https://devportfolio.edgeone.app/)
 
 ## Built With
 
@@ -174,18 +174,6 @@ After that, start up the Astro dev server with:
 ```
 npm run dev
 ```
-
-## Deployment
-
-The template can be deployed to any static hosting service easily (and in most cases, completely free). Here are some options:
-
-- To deploy with Netlify, [click here](https://docs.astro.build/en/guides/deploy/netlify/).
-- To deploy with Vercel, [click here](https://docs.astro.build/en/guides/deploy/vercel/).
-- To deploy with GitHub Pages, [click here](https://docs.astro.build/en/guides/deploy/github/).
-- To deploy with Cloudflare Pages, [click here](https://docs.astro.build/en/guides/deploy/cloudflare/).
-- To deploy with Render, [click here](https://docs.astro.build/en/guides/deploy/render/).
-
-Want to deploy somewhere else? Find more guides [here](https://docs.astro.build/en/guides/deploy/).
 
 ## Changelog
 
